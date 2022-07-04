@@ -1,0 +1,53 @@
+.container{
+    background-color: aqua;
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customer1{
+    background-color: bisque;
+    width:22%;
+    height: 90vh;
+    border-radius: 15px;
+    align-items: center;    
+}
+.customer2{
+    width:22%;
+    height: 90vh;
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: lightgreen;
+}
+.customer3{
+    width:22%;
+    height: 90vh;
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: lightpink;
+}
+.customer4{
+    width:22%;
+    height: 90vh;
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: lightsalmon;
+}
+.image{
+    width:100px;
+    height:100px;
+    /* border: 2px solid red; */
+    margin-left: 80px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.review{
+    margin: 20px 20px;
+    text-align: center;
+    height: 200px;
+    color:rgba(0, 0, 0, 0.553);
+}
+h3{
+    text-align: center;
+}

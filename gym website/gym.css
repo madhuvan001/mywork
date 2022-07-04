@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    background:linear-gradient(rgba(0,0,0,0.4),#009688) ,url(gym.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+.banner{
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+}
+h1{
+    font-size: 80px;
+
+}
+p{
+    font-size: 20px;
+}
+.btn{
+    margin-top: 50px;
+    text-align: center;
+}
+.btn>a{
+    text-decoration: none;
+    width: 150px;
+    display: inline-block;
+    padding: 12px;
+    color: white;
+    border: 1px solid white;
+    margin-left: 20px;
+    border-radius: 8px;
+    /* background-color: azure; */
+}
