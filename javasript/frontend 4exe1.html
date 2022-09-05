@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>calculate simple interest</h1>
+    <hr>
+    <div id ="output">output will display here</div>
+    <script>
+        function interest(principal,rate,year)
+        {
+            var result=principal*rate*year/100;
+            return result;
+        }
+        // input
+        var principal=parseInt(prompt("enter amount"));
+        var rate=parseInt(prompt("enter interest rate"));
+        var year=parseInt(prompt("enter number of years"));
+
+        // call function
+        var result=interest(principal,rate,year);
+        document.getElementById("output").innerHTML="interest of given number="+result;
+    </script>
+    
+</body>
+</html>

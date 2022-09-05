@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>calculate interest</h1>
+    <hr>
+    <diV id="output">output will display here</diV>
+    <script>
+        // arrow function
+        let interest=(p,r,n)=>p*r*n/100;
+        let print=(msg)=>document.getElementById("output").innerHTML=msg;
+        var p=parseInt(prompt("enter amount"));
+        var r=parseInt(prompt("enter rate"));
+        var n=parseInt(prompt("enter year"));
+
+        print("interest of given number"+interest(p,r,n));
+
+    </script>
+    
+</body>
+</html>

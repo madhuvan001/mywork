@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span id="title"></span>
+    <h4 id="address"></h4>
+    <h6 id="city"></h6>
+    <script>
+        let msg=prompt("what is your name");
+        document.getElementById("title").innerHTML=`<h1>${msg}</h1>`;
+        let add=prompt("what is your address");
+        document.getElementById("address").innerHTML=add;
+        let city=prompt("what is your city");
+        document.getElementById("city").innerHTML=city;
+    
+    </script>
+    
+</body>
+</html>
