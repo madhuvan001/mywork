@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="output">output will display here</div>
+    <script>
+        let bmi=(weight,height)=>weight/height*height;
+
+        let print=(msg)=>document.getElementById("output").innerHTML=msg;
+        let weight=parseInt(prompt("enter weight"));
+        let height=parseInt(prompt("enter height in meter"));
+        print("bmi of given height nd weight is"+bmi(weight,height));
+    </script>
+    
+</body>
+</html>
