@@ -7,21 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>convert negative number into positive number</h1>
-    <hr>
     <div id="output">output will display here</div>
     <script>
-        // arrow function
-        let number=(x)=>{if(x<0) {return x*-1;}
-                        else{return x;}
-                        }
-
+        // arrow function to find qube
+        let qube=(num)=>num*num*num;
 
         let print=(msg)=>document.getElementById("output").innerHTML=msg;
-        var x=parseInt(prompt("enter number"));
-
-        print("number"+number(x));
-       
+        let num=parseInt(prompt("enter number"));
+        print("qube of given number is"+qube(num));
     </script>
     
 </body>
